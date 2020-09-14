@@ -1,0 +1,29 @@
+{
+  "name": "rxjs-umd",
+  "version": "6.6.3",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miginmrs/rxjs-umd.git"
+  },
+  "author": "miginmrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miginmrs/rxjs-umd/issues"
+  },
+  "homepage": "https://github.com/miginmrs/rxjs-umd#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "peerDependencies": {
+    "rxjs": "6.6.3"
+  },
+  "unpkg": "./bundles/rxjs-umd.min.umd.js",
+  "description": "Rxjs exported internal tools umd-bundle",
+  "dependencies": {},
+  "keywords": [
+    "rxjs",
+    "bundle",
+    "umd"
+  ]
+}
