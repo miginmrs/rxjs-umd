@@ -1,0 +1,8 @@
+{
+  "extends": "rxjs/src/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {"rxjs": ["./node_modules/rxjs/src"]}
+  },
+  "include": ["./node_modules/rxjs/src/internal/**/*.ts"],
+}

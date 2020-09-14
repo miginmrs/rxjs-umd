@@ -1,0 +1,7 @@
+/build
+/bundles
+/dist
+/node_modules
+/temp
+*.log
+rxjs-umd.ts

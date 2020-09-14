@@ -1,0 +1,41 @@
+{
+  "name": "rxjs-umd",
+  "version": "6.6.3",
+  "sideEffects": false,
+  "scripts": {
+    "dist": "node createRxjsUmd && webpack --config webpack.config.js && webpack --config webpack.config.js --env.production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miginmrs/rxjs-umd.git"
+  },
+  "author": "miginmrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miginmrs/rxjs-umd/issues"
+  },
+  "homepage": "https://github.com/miginmrs/rxjs-umd#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "peerDependencies": {
+    "rxjs": "6.6.3"
+  },
+  "unpkg": "./bundles/rxjs-umd.min.umd.js",
+  "description": "Rxjs exported internal tools umd-bundle",
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "rxjs": "6.6.3",
+    "ts-loader": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {},
+  "keywords": [
+    "rxjs",
+    "bundle",
+    "umd"
+  ]
+}
